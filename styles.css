@@ -1,0 +1,32 @@
+/*
+   New Perspectives on JavaScript
+   Tutorial 10
+   Case Problem 2
+   Filename: styles.css
+
+   This file contains styles used in the cameras.htm file
+
+*/
+
+body {margin: 0px}
+td {vertical-align: top}
+#title {width: 100%; height: 104px; background-color: rgb(203,0,0)}
+#links {float: right}
+
+#filters {width: 22%; font-size: 8pt; border: 1px solid rgb(203,0,0);
+          float: left; font-family: Arial, Helvetica, sans-serif; margin-top: 10px;
+          margin-right: 5px; margin-left: 2px; padding: 0px}
+
+#filters th {font-family: Arial, Helvetica, sans-serif; font-size: 12pt;
+             color: white; margin: 0px; background-color: rgb(203,0,0); width: 100%;
+             text-align: center; padding: 2px}
+#filters select {font-size: 8pt; width: 115px}
+#records {color: rgb(203,0,0)}
+
+
+#prodTable {width: 70%; background-color: white; font-size: 9pt;
+            padding: 2px; border: 1px solid rgb(203,0,0); margin-top: 10px}
+#prodTable th {font-family: Arial, Helvetica, sans-serif; color: white;
+               background-color: rgb(203,0,0)}
+#prodTable td, #prodTable th {border: 1px solid rgb(203,0,0); vertical-align: top}
+
